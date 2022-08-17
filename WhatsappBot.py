@@ -8,6 +8,9 @@ import time
 
 print('Whatsapp Message Sender')
 
+web.open('https://web.whatsapp.com', new=0)
+input('Scan the QR code')
+
 numbers = str(input('File Location For Phone Numbers: '))
 phone_numbers = open(numbers, 'r', encoding='utf-8')
 phone_list = []
